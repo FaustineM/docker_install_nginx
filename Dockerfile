@@ -7,7 +7,7 @@ RUN echo  "daemon off;" >> /etc/nginx.conf
 
 ADD index.html /usr/share/nginx/html/index.html
 
-VOLUME /usr/share/nginx/html/index.html
+VOLUME /usr/share/nginx/html
 
 EXPOSE 80 
 
